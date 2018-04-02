@@ -18,7 +18,7 @@ maintainer documentation is at http://live.gnome.org/Dasher.
  $ git clone https://github.com/<your account>/dasher.git
  $ cd dasher
 
-4) Install dependencies
+3) Install dependencies
 If you are building sources from the Git repository then you must
 first install all the packages required to build Dasher.  On Debian
 based distributions the following can be used.
@@ -32,7 +32,7 @@ based distributions the following can be used.
 
  $ sudo apt-get install $packages
 
-5) Configuration and Install
+4) Configuration and Install
 autogen:
 
  $ ./autogen.sh
@@ -45,13 +45,8 @@ If the speech support is desired then
  $ make
  $ sudo make install
 
-6) Run dasher
+5) Run dasher
  $/usr/local/bin/dasher
-
-7) [Optional] Create desktop shortcuts
-
- $ cd dasher
- $ ./create-linux-desktop-shortcuts.sh
 
 
 Options
